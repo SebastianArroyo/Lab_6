@@ -25,7 +25,7 @@ public:
 private slots:
 
     void actualizar();
-    void GUARDARDATOS(double x, double y, double vx, double vy, double m, double r, int plan);
+//    void GUARDARDATOS(double x, double y, double vx, double vy, double m, double r, int plan);
     void on_pushButton_2_clicked();
 
 

@@ -22,7 +22,7 @@ QRectF Graficar::boundingRect() const
 void Graficar::paint(QPainter*painter, const QStyleOptionGraphicsItem*, QWidget*)
 {
 
-    painter->setBrush(Qt::darkBlue);
+    painter->setBrush(Qt::darkRed);
     painter->drawEllipse(boundingRect());
 }
 
